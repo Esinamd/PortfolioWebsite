@@ -1,0 +1,148 @@
+div[role='alert'] {
+    color: #81d2c7;
+    margin-top: 1em;
+}
+
+.footerC {
+    background: #7389ae;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    float: right;
+}
+
+.bottomNavC {
+    float: right;
+    text-align: right;
+    margin-right: 60px;
+}
+
+.titleC {
+    color: #e0e0e2;
+    font-family: 'IBM Plex Mono';
+    font-size: 70px;
+    text-align: left;
+    margin-left: 70px;
+    margin-bottom: 10px;
+}
+
+.cInfo {
+    float: right;
+    width: 90%;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+    background: #e0e0e2;
+    color: #7389ae;
+    padding: 20px 15px;
+    font-size: 20px;
+    font-family: "IBM Plex Mono";
+    text-align: left;
+}
+
+.rightC {
+    float: right;
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 70px;
+    background: #e0e0e2;
+    color: #7389ae;
+    padding: 20px 25px;
+    font-size: 20px;
+    font-family: "IBM Plex Mono";
+    text-align: left;
+    border-style: solid;
+    border-color: #7389ae;
+}
+
+.sForm {
+    height: 70vh;
+}
+
+.rightC input, textarea {
+    width: 100%;
+    text-align: left;
+    color: #7389ae;
+    border: 3px solid #7389ae;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    outline: none;
+    background: #e0e0e2;
+}
+
+.rightC input {
+    height: 60px;
+}
+
+.rightC textarea {
+    resize: none;
+}
+
+.rightC button {
+    float: right;
+    color: #e0e0e2;
+    background: #7389ae;
+    border: none;
+    font-size: 25px;
+}
+
+::placeholder {
+    color: #7389ae;
+}
+
+.leftC {
+    float: left;
+    width: 40%;
+}
+
+.status-message {
+    display: none;
+}
+
+.success {
+    opacity: 1;
+    color: green;
+    display: inline-block;
+}
+
+.failure {
+    opacity: 1;
+    color: red;
+    display: inline-block;
+}
+
+@media screen and (max-width: 1094px){
+    .main {
+        display: inline-block;
+    }
+    .titleC {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .cInfo {
+        float: none;
+        width: 75%;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .rightC {
+        float: none;
+        width: 85%;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 100px;
+    }
+
+    .leftC {
+        float: none;
+        width: 100%;
+    }
+}

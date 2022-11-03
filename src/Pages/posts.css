@@ -1,0 +1,169 @@
+.displayComment article{
+    margin-top: 20px;
+}
+
+.mainPost {
+    background: #81d2c7;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right:100px ;
+
+}
+.mainPost em {
+    color: #e0e0e2;
+    font-family: "IBM Plex Mono";
+    float:right;
+    margin-right:80px;
+}
+
+.postContent p {
+    color:#7389ae;
+    background:#e0e0e2;
+    font-family:"IBM Plex Mono";
+    text-align:left;
+    padding: 15px;
+    margin-left: 20px;
+    width:72%;
+
+}
+
+.postContent img {
+    border:15px solid #e0e0e2;
+    height:250px;
+    float:right;
+    margin-right:24px;
+}
+.comments button, .control button {
+    color: #e0e0e2;
+    background: #7389ae;
+    border-style: none;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.control button {
+    float: right;
+    margin-right: -35px;
+    margin-top: -58px;
+}
+
+.comments textarea {
+    resize: none;
+    font-family: "IBM Plex Mono" ;
+    font-style: italic;
+    height: 200px;
+    margin-bottom: -30px;
+}
+
+.control textarea {
+    resize: none;
+    font-family: "IBM Plex Mono" ;
+    font-style: italic;
+    height: 100px;
+    width: 90%;
+}
+
+.comments input, .control input {
+    color: #7389ae;
+    border: 3px solid #7389ae;
+    font-size: 20px;
+    background: #e0e0e2;
+    font-family: "IBM Plex Mono";
+    font-weight: bold;
+    outline: none;
+    text-align: left;
+    height: 60px;
+}
+
+.comments input {
+    width: 100%;
+}
+
+.control input {
+    width: 90%;
+}
+
+.comments h2, .box h2 {
+    font-family: "IBM Plex Mono";
+    font-style: italic;
+    color: #e0e0e2;
+}
+
+.comments h2 {
+    font-size: 40px;
+}
+.box h2 {
+    font-size: 35px;
+}
+
+.response {
+    color: #7389ae;
+    border: 3px solid #7389ae;
+    font-size: 20px;
+    margin: 60px 0;
+    background: #e0e0e2;
+}
+
+.response h3, p {
+    text-align: left;
+    margin-left: 20px;
+    font-family: "IBM Plex Mono";
+}
+
+.response p {
+    font-style: italic;
+}
+
+.responseTitle {
+    display:flex;
+    justify-content:left;
+}
+
+@media screen and (max-width: 700px) {
+    .responseTitle {
+        display: block;
+    }
+
+    .response h5 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .comments h2 {
+        font-size: 29px;
+    }
+
+    .comments input{
+        margin-bottom: 10px;
+        margin-left: -37%;
+        margin-right: -20%;
+        width: 180%;;
+    }
+
+    .comments textarea {
+        margin-left: -37%;
+        margin-right: -20%;
+        width: 180%;
+    }
+
+    .response {
+        margin-top: 60px;
+        margin-bottom: 60px;
+        margin-left: -37%;
+        margin-right: -40%;
+    }
+    .response h3 {
+        font-size: 20px;
+    }
+
+    .response p {
+        font-size: 15px;
+    }
+
+    .field button {
+        float: none;
+        margin-right: 0;
+        margin-top: 0;
+    }
+}

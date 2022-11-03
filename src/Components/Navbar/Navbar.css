@@ -1,0 +1,73 @@
+.NavbarItems {
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.2rem;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+    margin-right:2rem;
+}
+
+.nav-links {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.fa-bars {
+    color: #ffffff;
+}
+
+.homeIcon{
+    padding-left: 20px;
+}
+
+.homeIconBox{
+    display: flex;
+    justify-content: left;
+    margin: auto;
+}
+
+.homeMenu {
+    font-size: 40px;
+    position: fixed;
+    right: 70px;
+}
+
+/*@media screen and (max-width: 1700px) {*/
+    .NavbarItems {
+        height: 60px;
+        font-size: 1.2rem;
+        width: 50%;
+    }
+    .homeIconBox{
+        display: flex;
+        justify-content: left;
+        width: 100%;
+        /*margin: auto;*/
+        margin-top: 15px;
+        padding-left: 80px;
+    }
+/*}*/
+
+@media screen and (max-width: 470px){
+    .homeIconBox {
+        padding-left: 10px;
+    }
+
+}
+
+@media screen and (max-width: 391px) {
+    .homeIconBox {
+        padding-left: 0;
+    }
+}

@@ -1,0 +1,78 @@
+
+.bm-burger-bars {
+    background: #7389ae;
+}
+
+.bm-burger-bars-hover{
+    background: #6881ad;
+}
+
+.bm-cross-button {
+    height: 24px;
+    width: 24px;
+}
+
+.bm-cross {
+    background: #e0e0e2;
+}
+
+.bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+}
+
+.bm-menu {
+    background: #7389ae;
+    padding: 1.5em 1.5em 0;
+    font-size: 1.15em;
+}
+
+.bm-item-list {
+    color: #7389ae;
+    padding: 0.8em;
+}
+
+.bm-item {
+    display: inline-block;
+
+    font-family: "IBM Plex Mono";
+    font-weight: lighter;
+    font-size: 35px;
+
+    color: #e0e0e2;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: left;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.bm-item:hover {
+    color: #81d2c7;
+}
+
+.bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+/*@media screen and (max-width: 1700px) {*/
+    .bm-burger-button {
+        left: 85vw;
+        right: 70px;
+        height: 30px;
+        width: 36px;
+        top: 20px;
+        position: fixed;
+    }
+/*}*/
+
+@media screen and (max-width: 391px) {
+    .bm-burger-button {
+        height: 30px;
+        width: 36px;
+        right: 0;
+        position: absolute;
+    }
+}
+
+

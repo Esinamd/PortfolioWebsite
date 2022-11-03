@@ -1,0 +1,76 @@
+.latestCard {
+    width: 800px;
+    height: 500px;
+    margin: 20px;
+}
+
+.latestCard span {
+    color: #7389ae;
+    font-family:"IBM Plex Mono";
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.latestCard p {
+    font-style: italic;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "IBM Plex Mono";
+    color: #7389ae;
+}
+
+@media screen and (max-width: 1700px) {
+    .latestCard {
+        width: 800px;
+        height: 500px;
+        margin: 20px;
+    }
+    .latestCard img {
+        width: 600px;
+        height: 300px;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .latestCard img {
+        width: 260px;
+        height: 150px;
+        margin-top: 0px;
+    }
+    .latestCard p {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .latestCard p {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 391px) {
+    .latestCard {
+        width: 80%;
+        height: 100px;
+        margin: 20px;
+    }
+    .latestCard img {
+        width: 100%;
+        height: 150px;
+        margin-top: 0px;
+    }
+    .latestCard p {
+        display: none;
+    }
+}
+
+@media  screen and (max-width: 319px){
+    .latestCard span {
+        display: none;
+    }
+
+}

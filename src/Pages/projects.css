@@ -1,0 +1,93 @@
+.mainP {
+    background: #81d2c7;
+    padding-top: 0.01vh;
+    display: block;
+    width: 100%;
+}
+
+.titleProj {
+    color: #e0e0e2;
+    font-family: 'IBM Plex Mono';
+    font-size: 90px;
+    text-align: center;
+    
+}
+
+.card {
+    background: #e0e0e2;
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+}
+
+.pContainer {
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.pContainer h2 {
+    color: #7389ae;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.pContainer h4 {
+    color: #7389ae;
+    font-family: 'IBM Plex Mono', monospace;
+
+}
+
+img {
+    width: 300px;
+}
+
+@media screen and (max-width: 800px) {
+    .titleProj {
+        font-size: 75px;
+    }
+    .pContainer{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .card {
+        width: 50vw;
+    }
+
+    img {
+        width: 35vw;
+    }
+
+}
+
+@media screen and (max-width: 523px) {
+    .bottomNav {
+        margin-left: 0;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .titleProj {
+        font-size: 45px;
+    }
+    .pContainer h4 {
+        display: none;
+    }
+    .pContainer h2 {
+        font-size: 20px;
+    }
+    .latestCard span {
+        font-size: 12px;
+    }
+    .mainP {
+        margin-bottom: 25%;
+    }
+    .card {
+        height: 250px;
+    }
+}

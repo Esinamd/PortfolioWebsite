@@ -1,0 +1,331 @@
+/*css for homepage*/
+* {
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+::-webkit-scrollbar {display: none}
+
+#root {
+    background: #d3c4d1;
+}
+
+.home {
+    background: #d3c4d1;
+}
+
+.infoBox {
+    font-family: 'IBM Plex Mono', monospace;
+    color: #e0e0e2;
+    font-size: 50px;
+    border-style: solid;
+}
+
+.moreProj {
+    display: flex;
+    width: 100%;
+}
+
+.more {
+    background: #7389ae;
+    font-weight: bold;
+}
+
+.pageArrow {
+    position: fixed;
+    color: #7389ae;
+}
+
+.nameHome {
+    justify-content: left;
+    font-family: 'Bebas Neue', cursive;
+    color: #7389ae;
+    display: flex;
+    text-align: left;
+    margin-block-start: 0.1em;
+}
+
+.projHome {
+    font-family: 'Bebas Neue', cursive;
+    color: #7389ae;
+    text-align: left;
+}
+
+.galHome {
+    font-family: 'Bebas Neue', cursive;
+    color: #7389ae;
+    text-align: left;
+    width: 30%;
+}
+
+.sectionProj{
+    background-color: #81d2c7;
+    width: 100%;
+}
+
+.sectionGallery {
+    min-height: 102vh;
+    background: #d3c4d1;
+}
+
+.progress-icon {
+    margin: 0 -39.5px -14px 0;
+}
+
+.tile {
+    background: #d3c4d1;
+}
+
+.quickLinks h2, .quickLinks h4{
+    font-family: "IBM Plex Mono";
+    color: #e0e0e2;
+    text-align: right;
+}
+
+.quickLinks h4 {
+    font-style: italic;
+}
+
+/*@media screen and (max-width: 1700px) {*/
+    .about {
+        margin-left: 90px;
+        width: 40%;
+    }
+    .moreProj {
+        padding-right: 300px;
+        justify-content: flex-end;
+    }
+    .more {
+        width: 25%;
+        margin-right: -90px;
+        margin-top: -80px;
+    }
+    .moreGal {
+        float: left;
+        margin-left: 50px;
+    }
+    .pageArrow {
+        right: 70px;
+        padding-bottom: 40px;
+    }
+    .nameHome {
+        margin-left: 90px;
+        margin-top: 40px;
+        /*justify-content: left;*/
+        font-size: 150px;
+        /*display: flex;*/
+        /*margin-block-start: 0.1em;*/
+    }
+    .projHome {
+        font-size: 150px;
+        display: flex;
+        margin-right: 120px;
+        justify-content: right;
+        padding-top: 50px;
+        margin-bottom: -100px;
+    }
+    .galHome {
+        margin-left: 90px;
+        margin-top: 50px;
+        margin-bottom: 0;
+        font-size: 150px;
+    }
+    .sectionAbout {
+        height: 750px;
+    }
+    .sectionProj{
+        padding-bottom: 100px;
+        min-height: 80vh;
+    }
+    .tile {
+        width: 800px;
+        height: 500px;
+        margin-left: 75px;
+        margin-top: 100px;
+    }
+    .quickLinks {
+        float: right;
+        margin-top: -200px;
+        margin-right: 200px;
+    }
+    .quickLinks h2 {
+        font-size: 50px;
+        margin-top: 160px;
+    }
+    .quickLinks h4 {
+        font-style: italic;
+        font-size: 25px;
+    }
+    .pageArrow {
+        bottom: 0;
+        font-size: 30px;
+    }
+/*}*/
+
+@media screen and (max-width: 1400px) {
+    .moreProj {
+        padding-right: 0;
+        justify-content: left;
+    }
+    .more {
+        width: 25%;
+        margin-left: 75px;
+        margin-top: 3%;
+    }
+
+    .infoBox {
+        font-size: 35px;
+    }
+
+}
+
+@media screen and (max-width: 940px) {
+    .projHome {
+        font-size: 100px;
+        justify-content: center;
+    }
+    .tile {
+        width: 70%;
+        height: 400px;
+        /*margin-left: 75px;*/
+        /*margin-top: 100px;*/
+    }
+    .quickLinks {
+        display: inline-block;
+        float: none;
+        margin-right: -10px;
+        width: 330px;
+        margin-top: -200px;
+    }
+    .quickLinks h2 {
+        margin-right: -180px;
+    }
+    .quickLinks h4 {
+        margin-right: -180px;
+    }
+    .quickLinks iframe {
+        margin-left: -55px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .nameHome {
+        font-size: 100px;
+    }
+    .about {
+        font-size: 25px;
+    }
+    .projHome {
+        margin-left: 75px;
+    }
+    .tile {
+        height: 270px;
+    }
+    .galHome {
+        font-size: 100px;
+    }
+    .quickLinks {
+        display: inline-block;
+        float: none;
+        margin-right: 200px;
+        width: 45%;
+        margin-top: -200px;
+    }
+    .quickLinks iframe {
+        width: 120%;
+        margin-left: 50px;
+    }
+    .quickLinks h2 {
+        font-size: 30px;
+        margin-top: 200px;
+    }
+    .quickLinks h4 {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 391px) {
+    .home {
+        display: block;
+    }
+    .nameHome {
+        font-size: 80px;
+        margin-left: 30px;
+    }
+    .NavbarItems {
+        width: 0;
+    }
+    .infoBox {
+        font-size: 23px;
+        margin-top: 180px;
+    }
+    .about {
+        margin-left: 30px;
+        width: 70%;
+    }
+    .sectionAbout {
+        height: 570px;
+    }
+    .projHome {
+        font-size: 52px;
+        display: block;
+        margin-top: 10px;
+        margin-right: 0px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        text-align: center;
+        margin-left: 0;
+    }
+    .tile {
+        width: 80%;
+        height: 280px;
+        margin-top: -30px;
+        margin-left: 40px;
+    }
+    .moreProj {
+        padding-right: 0px;
+        justify-content: center;
+    }
+    .moreGal {
+        display: inline-block;
+        float: none;
+        margin-left: 0;
+    }
+    .more {
+        width: 50%;
+        margin-right: -20px;
+        margin-top: 35px;
+    }
+    .sectionProj{
+        padding-bottom: 0px;
+        min-height: 70vh;
+    }
+    .galHome {
+        margin-left: 30px;
+        font-size: 80px;
+        margin-top: 20px;
+    }
+    .quickLinks {
+        display: inline-block;
+        float: none;
+        margin-top: 2%;
+        margin-right: 0%;
+    }
+    /*.quickLinks iframe {*/
+    /*    width: 333px;*/
+    /*}*/
+    .quickLinks h2 {
+        font-size: 30px;
+        margin-top: 200px;
+        margin-right: -80px;
+    }
+    .quickLinks h4 {
+        font-size: 15px;
+        margin-right: -80px;
+    }
+
+    .pageArrow {
+        display: none;
+    }
+}

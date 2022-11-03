@@ -1,0 +1,118 @@
+.name {
+    font-family: "Bebas Neue";
+    color: #7389ae;
+    font-size: 50px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    float: left;
+    margin-left: 5vw;
+}
+
+.head {
+    background: #d3c4d1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.main {
+    background: #81d2c7;
+    display: flex;
+}
+.left {
+    float: left;
+    width: 35%;
+}
+.title {
+    color: #e0e0e2;
+    font-family: 'IBM Plex Mono';
+    font-size: 95px;
+    text-align: left;
+    margin-left: 70px;
+    margin-bottom: 10px;
+}
+.image {
+    background: #7389ae;
+    height: 230px;
+    width: 80%;
+    margin-left: 70px;
+}
+
+.right {
+    float: right;
+    width: 60%;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 70px;
+    background: #e0e0e2;
+    color: #7389ae;
+    padding: 20px 25px;
+    font-size: 20px;
+    font-family: "IBM Plex Mono";
+    text-align: left;
+}
+
+.footer {
+    background: #7389ae;
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+}
+.contact {
+    float: left;
+    margin-left: 70px;
+    margin-top: 15px;
+    width: 72%;
+    text-align: left;
+    text-decoration: underline;
+    color: #d3c4d1;
+    font-size: 25px;
+    font-family: 'IBM Plex Mono';
+}
+.bottomNav {
+    float: right;
+    text-align: right;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 1096px){
+    .right{
+        float: none;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .left{
+        float: none;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main {
+        display: inline-block;
+    }
+    .title {
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 529px){
+    .contact {
+        display: none;
+    }
+    .bottomNav{
+        margin-right: 10vw;
+    }
+    .title {
+        font-size: 70px;
+    }
+    .right {
+        margin-bottom: 25%;
+    }
+}
